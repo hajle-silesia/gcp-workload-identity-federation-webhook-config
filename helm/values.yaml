@@ -1,0 +1,6 @@
+controllerManager:
+  manager:
+    image:
+      repository: mtweeman/gcp-workload-identity-federation-webhook
+    args:
+      - --token-default-mode=0444
